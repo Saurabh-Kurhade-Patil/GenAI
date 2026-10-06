@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "car_details",
+        "car_input",
+        "length_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Please Help me with the details of the Sport car \"{car_input}\" with following specification:\n    Explaination style: {car_details}\n    Explaination Legth: {length_input}\n    \n    Share the details of the car as per the required explaination style, if don't have data about the car respond with \"Insufficient Data avliable\" instead guessing.\n    Keep it clear for real world data and it's about the Car and not the movie Cars\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
