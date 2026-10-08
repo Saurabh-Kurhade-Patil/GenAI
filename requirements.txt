@@ -30,3 +30,6 @@ streamlit
 
 # print chains
 grandalf
+
+# model locally running
+torch
